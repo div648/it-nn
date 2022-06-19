@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="scripts.js"></script>
+    <script src="arr_data.js"></script>
+    <script src="app.js"></script>
+    <title>ООО "Информационные Технологии"</title>
+</head>
+
+<body>
+
+
+    <img src="img/logo.png" class="img-logo" style="text-align: center;">
+
+
+    <div class="main-card top-br">
+        <p class="main-text">
+            ⌂ <a onclick="switchPages(0)" class="href-t0">Главная</a> |
+            <a onclick="switchPages(1)" class="href-t0">Сферы деятельности</a> |
+            <a onclick="switchPages(2)" class="href-t0">О компании</a> |
+            <a onclick="switchPages(3)" class="href-t0">Контакты</a>
+        </p>
+    </div>
+    <div class="main-page" id="page0">
+        <div class="main-card bottom-br">
+            <div class="boxf-img bottom-br" id="bgImg">
+                <h2 class="title-texton-img" id="titleImgText">Антивирусные системы безопасности</h2>
+                <p class="description-texton-img" id="descriptionImgText">Разработка и развертывание антивирусных систем
+                    <br> уровня предприятия
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+        <br>
+        <div class="box">
+            <div class="cards" id="infoCard0">
+                <h3 class="title-text">Новости</h3>
+                <p class="description-text">07 июня 2022 года На днях, наша организация подписала партнёрское соглашение с российской компанией-разработчиком безопасных офисных решений для общения и совместной работы с документами — МойОфис. подробнее</p>
+            </div>
+            <div class="cards" id="infoCard1">
+                <p class="description-text">gfgjg</p><br><br>
+            </div>
+            <div class="cards top-br" id="infoCard2">
+                <h3 class="title-text">Сферы деятельности</h3>
+                <p class="description-text">
+
+                    •<a onclick="activityPageSwitchH(0)" class="href-t2"> ИТ Аутсорсинг</a> <br> •
+                    <a onclick="activityPageSwitchH(1)" class="href-t2"> Сетевая инфраструктура</a><br> •
+                    <a onclick="activityPageSwitchH(2)" class="href-t2"> Серверы и персональные компьютеры</a><br> •
+                    <a onclick="activityPageSwitchH(3)" class="href-t2"> Антивирусные системы безопасности</a><br> •
+                    <a onclick="activityPageSwitchH(4)" class="href-t2"> Структурированные кабельные системы</a><br> •
+                    <a onclick="activityPageSwitchH(5)" class="href-t2"> Программное обеспечение</a><br> •
+                    <a onclick="activityPageSwitchH(6)" class="href-t2"> Поставки оборудования и ПО</a>
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="activity-page" id="page1">
+
+        <div class="main-card bottom-br">
+
+            <p class="description-text-c">
+
+                <a onclick="activityPageSwitch(0)" class="href-t1" id="fieldActivity0">ИТ Аутсорсинг</a><br>
+                <a onclick="activityPageSwitch(1)" class="href-t1" id="fieldActivity1">Сетевая инфраструктура</a><br>
+                <a onclick="activityPageSwitch(2)" class="href-t1" id="fieldActivity2">Серверы и персональные компьютеры</a><br>
+                <a onclick="activityPageSwitch(3)" class="href-t1" id="fieldActivity3">Антивирусные системы безопасности</a><br>
+                <a onclick="activityPageSwitch(4)" class="href-t1" id="fieldActivity4">Структурированные кабельные системы</a><br>
+                <a onclick="activityPageSwitch(5)" class="href-t1" id="fieldActivity5">Программное обеспечение</a><br>
+                <a onclick="activityPageSwitch(6)" class="href-t1" id="fieldActivity6">Поставки оборудования и ПО</a><br>
+
+            </p>
+
+        </div>
+
+        <div class="main-card-bd top-br bottom-br">
+            <h3 class="title-text" id="descriptionActivityTitle">• ИТ Аутсорсинг</h3>
+            <p class="description-text" id="descriptionActivity">
+
+            </p>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <p class="footer-text" id="textFooter">© 2003 ООО «Информационные Технологии».
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
